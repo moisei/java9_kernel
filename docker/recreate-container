@@ -1,0 +1,3 @@
+docker rm -vf j2
+docker run -d --name j2 -p 18888:8888 jup/java:2
+

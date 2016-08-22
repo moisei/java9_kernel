@@ -1,4 +1,4 @@
-VER=3
+VER=$(cat ".version")
 cd ..
 docker build -f docker/Dockerfile -t "jup/java:$VER" .
 cd -

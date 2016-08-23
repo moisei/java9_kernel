@@ -1,7 +1,7 @@
 {
  "argv": ["java",
           "-classpath",
-	      "/home/jovyan/jupyter-kernel-jsr223/dist/jupyter-kernel-jsr223.jar:/home/jovyan/jupyter-kernel-jsr223/lib/jeromq-0.3.6.jar:/home/jovyan/jupyter-kernel-jsr223/lib/commons-cli-1.2.jar:/home/jovyan/jupyter-kernel-jsr223/lib/json.jar:/home/jovyan/jupyter-kernel-jsr223/lib/junit-4.12.jar:/home/jovyan/jython/jython-standalone-2.7.0.jar",
+	      "/home/jovyan/jupyter-kernel-jsr223/jupyter-kernel-jsr223.jar:/home/jovyan/jupyter-kernel-jsr223/lib/jeromq-0.3.6.jar:/home/jovyan/jupyter-kernel-jsr223/lib/commons-cli-1.2.jar:/home/jovyan/jupyter-kernel-jsr223/lib/json.jar:/home/jovyan/jupyter-kernel-jsr223/lib/junit-4.12.jar:/home/jovyan/jython/jython-standalone-2.7.0.jar",
           "org.jupyterkernel.kernel.Session",
               "-k", "python",
               "-f", "{connection_file}"],

@@ -44,6 +44,11 @@ COPY jython_kernel/ jython_kernel
 RUN jupyter kernelspec install /home/jovyan/jython_kernel
 # EOF jython kernel
 
+# Groovy kernel
+COPY groovy_kernel/ groovy_kernel
+RUN jupyter kernelspec install /home/jovyan/groovy_kernel
+# EOF groovy kernel
+
 # install samples
 COPY sample-notebooks/ sample-notebooks
 

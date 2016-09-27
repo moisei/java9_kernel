@@ -1,0 +1,11 @@
+{
+  "argv": [ "java", "-jar", "/home/jovyan/groovy_kernel/jupyter-groovy-kernel-1.0.0.jar", "{connection_file}" ],
+  "display_name": "Groovy",
+  "language": "groovy",
+  "env": {
+        "PS1":"groovy>",
+        "GROOVY_HOME": "/home/jovyan/groovy-2.4.7",
+        "JAVA_HOME": "/home/jovyan/jdk-8",
+        "PATH": "/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/jovyan/jdk-8/bin"
+  }
+}
